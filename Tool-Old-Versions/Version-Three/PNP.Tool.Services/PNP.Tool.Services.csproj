@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PNP.Tool.Core\PNP.Tool.Core.csproj" />
+    <ProjectReference Include="..\PNP.Tool.Databases\PNP.Tool.Databases.csproj" />
+    <ProjectReference Include="..\PNP.Tool.DTOs\PNP.Tool.DTOs.csproj" />
+    <ProjectReference Include="..\PNP.Tool.Models\PNP.Tool.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+Migration Commands:
+
+Add-Migration InitialCreate -OutputDir Databases\Modules\PK-Verwaltungstool\TrainerMainContext\Migrations -Project PNP-Services -context TrMainContext
+
+!!! PNP-Services muss start-Project sein !!!
+
+-OutputDir => Directory, where Migrations hould be
+-Project => Project where DbContext is
+-context => context to migrate

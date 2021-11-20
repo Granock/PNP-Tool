@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <OutputType>Library</OutputType>
+	  <TargetFramework>net5.0-windows</TargetFramework>
+	  <UseWindowsForms>true</UseWindowsForms>
+	  <SignAssembly>false</SignAssembly>
+	  <AssemblyOriginatorKeyFile>Simon Voßmann.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\PNP.Modules.Pokemon\PNP.Modules.Pokemon.csproj" />
+    <ProjectReference Include="..\PNP.Services.Service\PNP.Services.Service.csproj" />
+  </ItemGroup>
+
+</Project>

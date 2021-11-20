@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PNP.Tool.Core\PNP.Tool.Core.csproj" />
+    <ProjectReference Include="..\PNP.Tool.Models\PNP.Tool.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PokemonVerwaltung\Pokemon\Ability\" />
+    <Folder Include="PokemonVerwaltung\Pokemon\Capability\" />
+    <Folder Include="PokemonVerwaltung\Pokemon\Edge\" />
+    <Folder Include="PokemonVerwaltung\Pokemon\Move\" />
+  </ItemGroup>
+
+</Project>

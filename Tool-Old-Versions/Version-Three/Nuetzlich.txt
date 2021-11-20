@@ -1,0 +1,8 @@
+Migration Commands:
+
+Add-Migration InitialCreate -Project PNP.Tool.Databases -context CoreContext -OutputDir Core.Migrations
+Remove-Migration -Project PNP.Tool.Databases -context CoreContext 
+
+-OutputDir => Directory, where Migrations hould be
+-Project => Project where DbContext is
+-context => context to migrate

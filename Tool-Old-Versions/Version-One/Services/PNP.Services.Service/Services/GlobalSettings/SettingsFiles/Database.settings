@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PNP.Services.ServiceImpl.Properties" GeneratedClassName="Database">
+  <Profiles />
+  <Settings>
+    <Setting Name="UnknownDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DB\Services.Unknown.db</Value>
+    </Setting>
+    <Setting Name="HistoryDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DB\Services.History.db</Value>
+    </Setting>
+    <Setting Name="PokemonDataDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DB\Modules.Pokemon.PokemonData.db</Value>
+    </Setting>
+    <Setting Name="PokemonMainDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DB\Modules.Pokemon.PokemonMain.db</Value>
+    </Setting>
+    <Setting Name="TrainerDataDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DB\Modules.Pokemon.TrainerData.db</Value>
+    </Setting>
+    <Setting Name="TrainerMainDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DB\Modules.Pokemon.TrainerMain.db</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

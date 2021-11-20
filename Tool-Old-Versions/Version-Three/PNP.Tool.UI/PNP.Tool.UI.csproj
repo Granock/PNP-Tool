@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PNP.Tool.Core\PNP.Tool.Core.csproj" />
+    <ProjectReference Include="..\PNP.Tool.DTOs\PNP.Tool.DTOs.csproj" />
+    <ProjectReference Include="..\PNP.Tool.Services\PNP.Tool.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pokemon-Verwaltung\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Base\Controls\CtrlModuleGrouping.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Base\Controls\RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Core\Main\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
